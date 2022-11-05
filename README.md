@@ -19,4 +19,5 @@ services:
 or 
 
 `docker build -t xray-nginx:0.0.1 .`
+
 `docker push xray-nginx:0.0.1`
