@@ -10,7 +10,7 @@ services:
     volumes:
       - ./xray:/etc/xray
       - ./nginx/http.d:/etc/nginx/http.d
-      - ./letsencrypt/etc/:/etc/letsencrypt
+      - ./letsencrypt/etc:/etc/letsencrypt
     restart: always
     ports:
       - "443:443"
