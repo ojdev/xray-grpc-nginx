@@ -2,7 +2,8 @@
 version: "3"
 services:
   xraygrpc:
-    image: xray-nginx:0.0.1
+    #image: xray-nginx:0.0.1
+    build: .
     container_name: xray-nginx
     environment:
       - TZ=Asia/Shanghai
