@@ -23,7 +23,6 @@ services:
     environment:
       - TZ=Asia/Shanghai
     volumes:
-#      - ./config/xray/VLESS-TCP-XTLS-WHATEVER.json:/etc/xray/config.json:ro
       - ./config/xray/VLESS-GRPC.json:/etc/xray/config.json:ro
       - ./letsencrypt/etc/:/etc/letsencrypt
       - /dev/shm/:/dev/shm/
