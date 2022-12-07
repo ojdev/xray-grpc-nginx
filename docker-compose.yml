@@ -5,7 +5,6 @@ services:
     container_name: nginx
     environment:
       - TZ=Asia/Shanghai
-      - NGINX_HOST=oujun.work
       - NGINX_PORT=80
     restart: always
     ports:
