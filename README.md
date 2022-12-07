@@ -32,6 +32,8 @@
 
 `docker-compose up -d`
 
+## 更新证书
 
+`bash certbot.renew.sh`
 
 
