@@ -1,0 +1,1 @@
+docker run -it --rm --name certbot -v "/root/docker/letsencrypt/etc/:/etc/letsencrypt" -v "/root/docker/letsencrypt/var/:/var/lib/letsencrypt" -v "/root/docker/letsencrypt/log/:/var/log/letsencrypt" -v "/root/docker/cloudflare.ini:/.secrets/cloudflare.ini" certbot/dns-cloudflare renew
